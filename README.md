@@ -1,10 +1,14 @@
-# window (CMD)
+# window (CMD) ![6572983866a3c-cmd-commands-download-01](https://github.com/user-attachments/assets/a5f3d5d9-7a37-4628-af56-dac72d67ba09)
+
 "%PROGRAMFILES(X86)%\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AVG7fiQsAKiy0U0Q9E2RkddjwNCxsw89sXdfhlc1_wGJCCLjRFpeqq6HLQuUuEkRzo4Pzw" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=%COMPUTERNAME%
-# (PowerSheel)
+# (PowerSheel) ![PowerShell_5 0_icon](https://github.com/user-attachments/assets/56132f85-e000-4d88-adfb-7a7eb57e1f61)
+
 & "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AVG7fiQsAKiy0U0Q9E2RkddjwNCxsw89sXdfhlc1_wGJCCLjRFpeqq6HLQuUuEkRzo4Pzw" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
-# Debian Linux 
+# Debian Linux ![1200px-Tux svg](https://github.com/user-attachments/assets/2424aeb2-0868-4353-b63e-f3f8b00ae462)
+
 DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AVG7fiQsAKiy0U0Q9E2RkddjwNCxsw89sXdfhlc1_wGJCCLjRFpeqq6HLQuUuEkRzo4Pzw" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
-# google git
+# google git ![lockup_git_color_108x24dp](https://github.com/user-attachments/assets/a6fff31b-b11d-47c2-8b96-95d91902c548)
+
 Aries Triputranto <aariestriputranto@gmail.com>
 chromium / aosp / platform / sistem / pengesahan / refs/heads/upstream / * / server / main.cc
 blob: b22ba18e97304349db329fea08bbc88aa09f41e1 [ file ] [ log ] [ menyalahkan ] [ edit ]
